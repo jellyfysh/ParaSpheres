@@ -86,4 +86,3 @@ following reference (see [Bernard2011](https://doi.org/10.1103/PhysRevLett.107.1
 Etienne P. Bernard and Werner Krauth, "Two-Step Melting in Two
 Dimensions: First-Order Liquid-Hexatic Transition"
 [Phys. Rev. Lett. 107, 155704 (2011)](https://doi.org/10.1103/PhysRevLett.107.155704).
-
