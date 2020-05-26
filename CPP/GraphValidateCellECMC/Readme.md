@@ -1,6 +1,9 @@
 ## C++ cell-based simulation for 2D hard spheres (` GraphValidateCellECMC.cc`).
 
-This code is based on a direct translation of the historic Fortran90 code in `Fortran90/Historic/` into `C++` (see Section 3 of [Li2020](https://arxiv.org/abs/2004.11040) in [References.bib](References.bib)).
+This code is based on a direct translation of the historic
+Fortran90 code in `Fortran90/Historic/` into `C++` (see
+Section 3 of [Li2020](https://arxiv.org/abs/2004.11040) in
+[References.bib](References.bib)).
 
 Particles move in a single direction, and explore the constraining polytope.
 
