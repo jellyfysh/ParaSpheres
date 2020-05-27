@@ -36,7 +36,7 @@ the  `Run/` directory. Each script creates a unique subdirectory.
 Use of the programs requires firstly running `Setup.sh` in the `Scripts` directory, 
 in order to create the starting data files, which are placed in `SetupData/`. 
 (Please check [The general instruction of running scripts](Scripts/README.md) and 
-[The detailed description of `Setup.sh`](Scripts/README.md).)
+[The detailed description of `Setup.sh`](Scripts/README.md#setupsh).)
 Other scripts can be run
 in any order. The `SystemDimension` variable must be set to the same value
 in each script, the default value is `SystemDimension=256` which is the standard value
