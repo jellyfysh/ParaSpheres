@@ -135,9 +135,11 @@ while distance > 0.0:
     for a in active_spheres:
         for b in forward_nodes[a]:
             if b not in active_spheres:
-                event_b = configuration[b][direction] - configuration[a][direction] - b_matrix[(a, b)]
+                event_b = configuration[b][direction] - configuration[a][direction]
                 if event_b < 0:
                     event_b += 1.0
+                event_b -= b_matrix[(a, b)]
+                event_b = max(event_b, 0.00000000001)
                 if event_b < event_min:
                     old_a = a
                     new_a = b
